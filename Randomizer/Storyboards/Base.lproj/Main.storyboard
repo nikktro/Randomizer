@@ -142,7 +142,11 @@
                                 <action selector="cancelButtonPressed" destination="s1k-ao-BPB" id="AWO-sj-O1x"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Save" id="Mee-g1-gMc"/>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="Mee-g1-gMc">
+                            <connections>
+                                <action selector="saveButtonPressed:" destination="s1k-ao-BPB" id="mgz-W9-vNv"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="maximumValueTF" destination="Kl8-YF-tV6" id="OvM-tM-wfs"/>
