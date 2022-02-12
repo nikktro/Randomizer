@@ -144,7 +144,7 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Save" id="Mee-g1-gMc">
                             <connections>
-                                <action selector="saveButtonPressed:" destination="s1k-ao-BPB" id="mgz-W9-vNv"/>
+                                <action selector="saveButtonPressed" destination="s1k-ao-BPB" id="IY9-cH-Fi0"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
